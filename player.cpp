@@ -3,6 +3,7 @@
 // Created by Kwonwoo Choi on 11/5/2018.
 //
 
+#include <cstdlib>     // Provides rand
 #include "player.h"
 
 /* FUNCTION - void addCard
@@ -94,7 +95,6 @@ bool Player::rankInHand(Card c) const
 Card Player::chooseCardFromHand() const
 {
     const unsigned int SIZE_HAND = myHand.size();
-
     return myHand[rand() % SIZE_HAND]; // returns random card from hand
 }
 

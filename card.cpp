@@ -3,6 +3,7 @@
 // Created by Kwonwoo Choi on 11/5/2018.
 //
 
+#include <sstream>
 #include "card.h"
 
 // Default constructor
@@ -101,7 +102,9 @@ string Card::rankString(int r) const
     if(r == 13)
         return "K";
     
-    return to_string(r);
+    ostringstream ss;
+    ss << r;
+    return ss.str();
 }
 
 // overload == operator
