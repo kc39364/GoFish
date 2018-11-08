@@ -136,31 +136,7 @@ Card Player::removeCardFromHand(Card c)
         {
             removedCard = *iter;
             myHand.erase(iter); // deletes card from hand
-        }
-    }
-
-    return removedCard;
-}
-
-/* FUNCTION - Card removeRankFromHand
-    * Remove the card with rank of Card c from the hand and return it to the caller
-
-    input parms - Card c to remove
-
-    output parms - returns card to remove from hand
-                 - remove card from hand
-*/
-Card Player::removeRankFromHand(Card c)
-{
-    Card removedCard; // card that was removed (empty at first)
-
-    vector <Card>::iterator iter;
-    for(iter = myHand.begin(); iter != myHand.end(); iter++)
-    {
-        if((*iter).getRank() == c.getRank()) // checks if rank number is the same
-        {
-            removedCard = *iter;
-            myHand.erase(iter); // deletes card from hand
+            iter--;
         }
     }
 
@@ -203,9 +179,9 @@ string Player::showBooks() const
     for(iter = myBook.begin(); iter != myBook.end(); iter++)
     {
         // string contains each book together
-        books += (*iter).toString() + " ";
+        books += (*iter).toString() + "-";
         iter++;
-        books += (*iter).toString() + "\n"; // new line after each book
+        books += (*iter).toString() + " "; // new line after each book
     }
 
     return books;
