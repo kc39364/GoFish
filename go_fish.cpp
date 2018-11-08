@@ -35,7 +35,7 @@ void displayAll(Player &p1, Player &p2);
 
 int main( )
 {
-    cout << "Go Fish Game" << endl << endl;
+    cout << "*****Go Fish!*****" << endl << endl;
     int numCards = 5;
     
     Player p1("Joe");
@@ -45,6 +45,7 @@ int main( )
     srand(time(NULL));
     d.shuffle();
     
+    cout << "Deal Cards:" << endl;
     dealHand(d, p1, numCards);
     dealHand(d, p2, numCards);
        
@@ -67,6 +68,9 @@ int main( )
 
 
     // GAME IS READY TO PLAY
+    cout << "Start Go Fish!" << endl;
+    cout << "******************************" << endl;
+
     bool playerTurn = true; // true is p1 turn, false is p2 turn
     while(p1.getBookSize() + p2.getBookSize() != 26)
     {
@@ -74,6 +78,8 @@ int main( )
             turn(p1, p2, playerTurn, d);
         else
             turn(p2, p1, playerTurn, d);
+        
+        displayAll(p1, p2);
     }
 
     cout << "The game is over. Who won?" << endl;
@@ -101,36 +107,68 @@ void dealHand(Deck &d, Player &p, int numCards)
 
 void turn(Player &p1, Player &p2, bool &playerTurn, Deck &d)
 {
+    if((p1.getHandSize() == 0) && (d.size() > 0))
+    {
+        Card dealt = d.dealCard();
+        cout << "Out of cards! " << p1.getName() << " draws " << dealt.toString() << endl;
+        p1.addCard(dealt);
+    }
+    
     Card chosenC = p1.chooseCardFromHand();
-    cout << p1.getName() << " asks -  Do you have a " << chosenC.getRank() << "?" << endl;
+    cout << p1.getName() << " asks - Do you have a " << chosenC.rankString(chosenC.getRank()) << "?" << endl;
 
     if(p2.rankInHand(chosenC))
     {
-        while(p2.rankInHand(chosenC))
+        cout << p2.getName() << " says - Yes. I have a " << chosenC.rankString(chosenC.getRank()) << "." << endl;
+
+        for(int suit = 0; suit < 4; suit++)
         {
-            
+            Card temp(chosenC.getRank(), (Card::Suit)suit);
+            if(p2.cardInHand(temp))
+            {
+                p1.addCard(p2.removeCardFromHand(temp));
+            }
         }
 
         Card book1, book2;
         p1.checkHandForBook(book1, book2);
         p1.bookCards(p1.removeCardFromHand(book1), p1.removeCardFromHand(book2));
+        cout << p1.getName() << " books " << book1.toString() + "-" + book2.toString() << endl;
+
+        if((p2.getHandSize() == 0) && (d.size() > 0))
+        {
+            Card dealt = d.dealCard();
+            cout << "Out of cards! " << p2.getName() << " draws " << dealt.toString() << endl;
+            p2.addCard(dealt);
+        }
     }
     else
     {
-        cout << p2.getName() << "says - Go Fish" << endl;
+        cout << p2.getName() << " says - Go Fish" << endl;
 
         if(d.size() > 0)
-            p1.addCard(d.dealCard());
+        {
+            Card dealt = d.dealCard();
+            cout << p1.getName() << " draws " << dealt.toString() << endl;
+            p1.addCard(dealt);
+
+        }
         Card book1, book2;
         if(p1.checkHandForBook(book1, book2))
         {
             p1.bookCards(p1.removeCardFromHand(book1), p1.removeCardFromHand(book2));
+            cout << p1.getName() << " books " << book1.toString() + "-" + book2.toString() << endl;
+
+            if((p1.getHandSize() == 0) && (d.size() > 0))
+            {
+                Card dealt = d.dealCard();
+                cout << "Out of cards! " << p1.getName() << " draws " << dealt.toString() << endl;
+                p1.addCard(dealt);
+            }
         }
 
         playerTurn = !playerTurn;
     }
-
-    displayAll(p1, p2);
 }
 
 void displayAll(Player &p1, Player &p2)
