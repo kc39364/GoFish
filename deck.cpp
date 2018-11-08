@@ -4,7 +4,6 @@
 //
 
 #include <cstdlib>  // rand
-
 #include "deck.h"
 
 // Default constructor
