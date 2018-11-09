@@ -1,459 +1,426 @@
 *****Go Fish!*****
 
 Deal Cards:
-Joe's hands : 7s 2s Ah 8d 3h 
-Jane's hands : 9s Kc 4c 5s 7c 
+Joe's hands : 8c 2s 10d 7d 3h 6s Kd 
+Jane's hands : 9h 5d 10s 6d 7h Jh 9s 
 
 Any cards to book?
-Joe's hands : 7s 2s Ah 8d 3h 
-Jane's hands : 9s Kc 4c 5s 7c 
+Joe's hands : 8c 2s 10d 7d 3h 6s Kd 
+Jane's hands : 5d 10s 6d 7h Jh 
 Joe's books : 
-Jane's books : 
+Jane's books : 9h-9s 
 
 Start Go Fish!
 ******************************
 Joe asks - Do you have a 3?
 Jane says - Go Fish
-Joe draws Qd
-Joe's hands : 7s 2s Ah 8d 3h Qd 
-Jane's hands : 9s Kc 4c 5s 7c 
-Joe's books : 
-Jane's books : 
-
-Jane asks - Do you have a K?
-Joe says - Go Fish
-Jane draws 2d
-Joe's hands : 7s 2s Ah 8d 3h Qd 
-Jane's hands : 9s Kc 4c 5s 7c 2d 
-Joe's books : 
-Jane's books : 
-
-Joe asks - Do you have a 2?
-Jane says - Yes. I have a 2.
-Joe books 2s-2d
-Joe's hands : 7s Ah 8d 3h Qd 
-Jane's hands : 9s Kc 4c 5s 7c 
-Joe's books : 2s-2d 
-Jane's books : 
-
-Joe asks - Do you have a A?
-Jane says - Go Fish
-Joe draws 7h
-Joe books 7s-7h
-Joe's hands : Ah 8d 3h Qd 
-Jane's hands : 9s Kc 4c 5s 7c 
-Joe's books : 2s-2d 7s-7h 
-Jane's books : 
-
-Jane asks - Do you have a 7?
-Joe says - Go Fish
-Jane draws 6s
-Joe's hands : Ah 8d 3h Qd 
-Jane's hands : 9s Kc 4c 5s 7c 6s 
-Joe's books : 2s-2d 7s-7h 
-Jane's books : 
-
-Joe asks - Do you have a 8?
-Jane says - Go Fish
-Joe draws 2h
-Joe's hands : Ah 8d 3h Qd 2h 
-Jane's hands : 9s Kc 4c 5s 7c 6s 
-Joe's books : 2s-2d 7s-7h 
-Jane's books : 
-
-Jane asks - Do you have a 7?
-Joe says - Go Fish
-Jane draws 9h
-Jane books 9s-9h
-Joe's hands : Ah 8d 3h Qd 2h 
-Jane's hands : Kc 4c 5s 7c 6s 
-Joe's books : 2s-2d 7s-7h 
-Jane's books : 9s-9h 
-
-Joe asks - Do you have a 3?
-Jane says - Go Fish
-Joe draws 10d
-Joe's hands : Ah 8d 3h Qd 2h 10d 
-Jane's hands : Kc 4c 5s 7c 6s 
-Joe's books : 2s-2d 7s-7h 
-Jane's books : 9s-9h 
-
-Jane asks - Do you have a 7?
-Joe says - Go Fish
-Jane draws 8h
-Joe's hands : Ah 8d 3h Qd 2h 10d 
-Jane's hands : Kc 4c 5s 7c 6s 8h 
-Joe's books : 2s-2d 7s-7h 
-Jane's books : 9s-9h 
-
-Joe asks - Do you have a 8?
-Jane says - Yes. I have a 8.
-Joe books 8d-8h
-Joe's hands : Ah 3h Qd 2h 10d 
-Jane's hands : Kc 4c 5s 7c 6s 
-Joe's books : 2s-2d 7s-7h 8d-8h 
-Jane's books : 9s-9h 
-
-Joe asks - Do you have a A?
-Jane says - Go Fish
-Joe draws 7d
-Joe's hands : Ah 3h Qd 2h 10d 7d 
-Jane's hands : Kc 4c 5s 7c 6s 
-Joe's books : 2s-2d 7s-7h 8d-8h 
-Jane's books : 9s-9h 
-
-Jane asks - Do you have a 5?
-Joe says - Go Fish
-Jane draws 3d
-Joe's hands : Ah 3h Qd 2h 10d 7d 
-Jane's hands : Kc 4c 5s 7c 6s 3d 
-Joe's books : 2s-2d 7s-7h 8d-8h 
-Jane's books : 9s-9h 
-
-Joe asks - Do you have a 10?
-Jane says - Go Fish
-Joe draws Ad
-Joe books Ah-Ad
-Joe's hands : 3h Qd 2h 10d 7d 
-Jane's hands : Kc 4c 5s 7c 6s 3d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 
-
-Jane asks - Do you have a 5?
-Joe says - Go Fish
-Jane draws 9d
-Joe's hands : 3h Qd 2h 10d 7d 
-Jane's hands : Kc 4c 5s 7c 6s 3d 9d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 
-
-Joe asks - Do you have a Q?
-Jane says - Go Fish
-Joe draws 8c
-Joe's hands : 3h Qd 2h 10d 7d 8c 
-Jane's hands : Kc 4c 5s 7c 6s 3d 9d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 
-
-Jane asks - Do you have a K?
-Joe says - Go Fish
-Jane draws 10c
-Joe's hands : 3h Qd 2h 10d 7d 8c 
-Jane's hands : Kc 4c 5s 7c 6s 3d 9d 10c 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 
-
-Joe asks - Do you have a 8?
-Jane says - Go Fish
-Joe draws 5d
-Joe's hands : 3h Qd 2h 10d 7d 8c 5d 
-Jane's hands : Kc 4c 5s 7c 6s 3d 9d 10c 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 
-
-Jane asks - Do you have a 10?
-Joe says - Yes. I have a 10.
-Jane books 10c-10d
-Joe's hands : 3h Qd 2h 7d 8c 5d 
-Jane's hands : Kc 4c 5s 7c 6s 3d 9d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 10c-10d 
-
-Jane asks - Do you have a K?
-Joe says - Go Fish
-Jane draws Jh
-Joe's hands : 3h Qd 2h 7d 8c 5d 
-Jane's hands : Kc 4c 5s 7c 6s 3d 9d Jh 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 
-Jane's books : 9s-9h 10c-10d 
-
-Joe asks - Do you have a 3?
-Jane says - Yes. I have a 3.
-Joe books 3h-3d
-Joe's hands : Qd 2h 7d 8c 5d 
-Jane's hands : Kc 4c 5s 7c 6s 9d Jh 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 
-Jane's books : 9s-9h 10c-10d 
-
-Joe asks - Do you have a 7?
-Jane says - Yes. I have a 7.
-Joe books 7d-7c
-Joe's hands : Qd 2h 8c 5d 
-Jane's hands : Kc 4c 5s 6s 9d Jh 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 
-Jane's books : 9s-9h 10c-10d 
-
-Joe asks - Do you have a 5?
-Jane says - Yes. I have a 5.
-Joe books 5d-5s
-Joe's hands : Qd 2h 8c 
-Jane's hands : Kc 4c 6s 9d Jh 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 
-Jane's books : 9s-9h 10c-10d 
-
-Joe asks - Do you have a 2?
-Jane says - Go Fish
 Joe draws 6h
-Joe's hands : Qd 2h 8c 6h 
-Jane's hands : Kc 4c 6s 9d Jh 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 
-Jane's books : 9s-9h 10c-10d 
-
-Jane asks - Do you have a J?
-Joe says - Go Fish
-Jane draws As
-Joe's hands : Qd 2h 8c 6h 
-Jane's hands : Kc 4c 6s 9d Jh As 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 
-Jane's books : 9s-9h 10c-10d 
-
-Joe asks - Do you have a 2?
-Jane says - Go Fish
-Joe draws 6c
-Joe books 6h-6c
-Joe's hands : Qd 2h 8c 
-Jane's hands : Kc 4c 6s 9d Jh As 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 
-Jane's books : 9s-9h 10c-10d 
-
-Jane asks - Do you have a 9?
-Joe says - Go Fish
-Jane draws Jd
-Jane books Jh-Jd
-Joe's hands : Qd 2h 8c 
-Jane's hands : Kc 4c 6s 9d As 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Joe asks - Do you have a 8?
-Jane says - Go Fish
-Joe draws 2c
-Joe books 2h-2c
-Joe's hands : Qd 8c 
-Jane's hands : Kc 4c 6s 9d As 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Jane asks - Do you have a 4?
-Joe says - Go Fish
-Jane draws Qh
-Joe's hands : Qd 8c 
-Jane's hands : Kc 4c 6s 9d As Qh 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Joe asks - Do you have a Q?
-Jane says - Yes. I have a Q.
-Joe books Qd-Qh
-Joe's hands : 8c 
-Jane's hands : Kc 4c 6s 9d As 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Joe asks - Do you have a 8?
-Jane says - Go Fish
-Joe draws Qs
-Joe's hands : 8c Qs 
-Jane's hands : Kc 4c 6s 9d As 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Jane asks - Do you have a A?
-Joe says - Go Fish
-Jane draws 8s
-Joe's hands : 8c Qs 
-Jane's hands : Kc 4c 6s 9d As 8s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Joe asks - Do you have a Q?
-Jane says - Go Fish
-Joe draws Kh
-Joe's hands : 8c Qs Kh 
-Jane's hands : Kc 4c 6s 9d As 8s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh 
-Jane's books : 9s-9h 10c-10d Jh-Jd 
-
-Jane asks - Do you have a A?
-Joe says - Go Fish
-Jane draws 4d
-Jane books 4c-4d
-Joe's hands : 8c Qs Kh 
-Jane's hands : Kc 6s 9d As 8s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 
-
-Joe asks - Do you have a K?
-Jane says - Yes. I have a K.
-Joe books Kh-Kc
-Joe's hands : 8c Qs 
-Jane's hands : 6s 9d As 8s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 
-
-Joe asks - Do you have a Q?
-Jane says - Go Fish
-Joe draws 6d
-Joe's hands : 8c Qs 6d 
-Jane's hands : 6s 9d As 8s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 
+Joe books 6s-6h
+Joe's hands : 8c 2s 10d 7d 3h Kd 
+Jane's hands : 5d 10s 6d 7h Jh 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 
 
 Jane asks - Do you have a 6?
-Joe says - Yes. I have a 6.
-Jane books 6s-6d
-Joe's hands : 8c Qs 
-Jane's hands : 9d As 8s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d 
-
-Jane asks - Do you have a 9?
 Joe says - Go Fish
-Jane draws 3s
-Joe's hands : 8c Qs 
-Jane's hands : 9d As 8s 3s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d 
-
-Joe asks - Do you have a Q?
-Jane says - Go Fish
-Joe draws Qc
-Joe books Qs-Qc
-Joe's hands : 8c 
-Jane's hands : 9d As 8s 3s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d 
-
-Jane asks - Do you have a 9?
-Joe says - Go Fish
-Jane draws Ac
-Jane books As-Ac
-Joe's hands : 8c 
-Jane's hands : 9d 8s 3s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Jane draws 3c
+Joe's hands : 8c 2s 10d 7d 3h Kd 
+Jane's hands : 5d 10s 6d 7h Jh 3c 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 
 
 Joe asks - Do you have a 8?
-Jane says - Yes. I have a 8.
-Joe books 8c-8s
-Joe's hands : 
-Jane's hands : 9d 3s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
-
-Out of cards! Joe draws 10h
-Joe asks - Do you have a 10?
 Jane says - Go Fish
-Joe draws 3c
-Joe's hands : 10h 3c 
-Jane's hands : 9d 3s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Joe draws 4h
+Joe's hands : 8c 2s 10d 7d 3h Kd 4h 
+Jane's hands : 5d 10s 6d 7h Jh 3c 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 
 
-Jane asks - Do you have a 9?
+Jane asks - Do you have a 7?
+Joe says - Yes. I have a 7.
+Jane books 7h-7d
+Joe's hands : 8c 2s 10d 3h Kd 4h 
+Jane's hands : 5d 10s 6d Jh 3c 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 7h-7d 
+
+Jane asks - Do you have a 6?
 Joe says - Go Fish
-Jane draws 10s
-Joe's hands : 10h 3c 
-Jane's hands : 9d 3s 10s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Jane draws 5h
+Jane books 5d-5h
+Joe's hands : 8c 2s 10d 3h Kd 4h 
+Jane's hands : 10s 6d Jh 3c 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 7h-7d 5d-5h 
+
+Joe asks - Do you have a K?
+Jane says - Go Fish
+Joe draws Qd
+Joe's hands : 8c 2s 10d 3h Kd 4h Qd 
+Jane's hands : 10s 6d Jh 3c 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 7h-7d 5d-5h 
+
+Jane asks - Do you have a 3?
+Joe says - Yes. I have a 3.
+Jane books 3c-3h
+Joe's hands : 8c 2s 10d Kd 4h Qd 
+Jane's hands : 10s 6d Jh 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
+
+Jane asks - Do you have a 6?
+Joe says - Go Fish
+Jane draws Qs
+Joe's hands : 8c 2s 10d Kd 4h Qd 
+Jane's hands : 10s 6d Jh Qs 
+Joe's books : 6s-6h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
+
+Joe asks - Do you have a 8?
+Jane says - Go Fish
+Joe draws 8h
+Joe books 8c-8h
+Joe's hands : 2s 10d Kd 4h Qd 
+Jane's hands : 10s 6d Jh Qs 
+Joe's books : 6s-6h 8c-8h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
+
+Jane asks - Do you have a 6?
+Joe says - Go Fish
+Jane draws Ks
+Joe's hands : 2s 10d Kd 4h Qd 
+Jane's hands : 10s 6d Jh Qs Ks 
+Joe's books : 6s-6h 8c-8h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
 
 Joe asks - Do you have a 10?
 Jane says - Yes. I have a 10.
-Joe books 10h-10s
-Joe's hands : 3c 
-Jane's hands : 9d 3s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Joe books 10d-10s
+Joe's hands : 2s Kd 4h Qd 
+Jane's hands : 6d Jh Qs Ks 
+Joe's books : 6s-6h 8c-8h 10d-10s 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
 
-Joe asks - Do you have a 3?
-Jane says - Yes. I have a 3.
-Joe books 3c-3s
-Joe's hands : 
-Jane's hands : 9d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
-
-Out of cards! Joe draws Ks
 Joe asks - Do you have a K?
+Jane says - Yes. I have a K.
+Joe books Kd-Ks
+Joe's hands : 2s 4h Qd 
+Jane's hands : 6d Jh Qs 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
+
+Joe asks - Do you have a 4?
 Jane says - Go Fish
-Joe draws 5c
-Joe's hands : Ks 5c 
-Jane's hands : 9d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Joe draws Ac
+Joe's hands : 2s 4h Qd Ac 
+Jane's hands : 6d Jh Qs 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h 
+
+Jane asks - Do you have a Q?
+Joe says - Yes. I have a Q.
+Jane books Qs-Qd
+Joe's hands : 2s 4h Ac 
+Jane's hands : 6d Jh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Jane asks - Do you have a 6?
+Joe says - Go Fish
+Jane draws 7s
+Joe's hands : 2s 4h Ac 
+Jane's hands : 6d Jh 7s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Joe asks - Do you have a 2?
+Jane says - Go Fish
+Joe draws Ad
+Joe books Ac-Ad
+Joe's hands : 2s 4h 
+Jane's hands : 6d Jh 7s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Jane asks - Do you have a J?
+Joe says - Go Fish
+Jane draws 10h
+Joe's hands : 2s 4h 
+Jane's hands : 6d Jh 7s 10h 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Joe asks - Do you have a 4?
+Jane says - Go Fish
+Joe draws As
+Joe's hands : 2s 4h As 
+Jane's hands : 6d Jh 7s 10h 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Jane asks - Do you have a 7?
+Joe says - Go Fish
+Jane draws 5s
+Joe's hands : 2s 4h As 
+Jane's hands : 6d Jh 7s 10h 5s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Joe asks - Do you have a 2?
+Jane says - Go Fish
+Joe draws Kh
+Joe's hands : 2s 4h As Kh 
+Jane's hands : 6d Jh 7s 10h 5s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Jane asks - Do you have a 6?
+Joe says - Go Fish
+Jane draws 9d
+Joe's hands : 2s 4h As Kh 
+Jane's hands : 6d Jh 7s 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
+
+Joe asks - Do you have a 4?
+Jane says - Go Fish
+Joe draws 2h
+Joe books 2s-2h
+Joe's hands : 4h As Kh 
+Jane's hands : 6d Jh 7s 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 
 
 Jane asks - Do you have a 9?
 Joe says - Go Fish
-Jane draws 5h
-Joe's hands : Ks 5c 
-Jane's hands : 9d 5h 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Jane draws 6c
+Jane books 6d-6c
+Joe's hands : 4h As Kh 
+Jane's hands : Jh 7s 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 
 
 Joe asks - Do you have a K?
 Jane says - Go Fish
 Joe draws Js
-Joe's hands : Ks 5c Js 
-Jane's hands : 9d 5h 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Joe's hands : 4h As Kh Js 
+Jane's hands : Jh 7s 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 
 
-Jane asks - Do you have a 9?
+Jane asks - Do you have a 7?
 Joe says - Go Fish
-Jane draws 4s
-Joe's hands : Ks 5c Js 
-Jane's hands : 9d 5h 4s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Jane draws 4c
+Joe's hands : 4h As Kh Js 
+Jane's hands : Jh 7s 10h 5s 9d 4c 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 
 
 Joe asks - Do you have a K?
 Jane says - Go Fish
-Joe draws Jc
-Joe books Js-Jc
-Joe's hands : Ks 5c 
-Jane's hands : 9d 5h 4s 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s Js-Jc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 
+Joe draws 8s
+Joe's hands : 4h As Kh Js 8s 
+Jane's hands : Jh 7s 10h 5s 9d 4c 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 
 
 Jane asks - Do you have a 4?
-Joe says - Go Fish
-Jane draws 4h
-Jane books 4s-4h
-Joe's hands : Ks 5c 
-Jane's hands : 9d 5h 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s Js-Jc 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 4s-4h 
+Joe says - Yes. I have a 4.
+Jane books 4c-4h
+Joe's hands : As Kh Js 8s 
+Jane's hands : Jh 7s 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 
 
-Joe asks - Do you have a K?
+Jane asks - Do you have a 10?
+Joe says - Go Fish
+Jane draws 7c
+Jane books 7s-7c
+Joe's hands : As Kh Js 8s 
+Jane's hands : Jh 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Joe asks - Do you have a 8?
 Jane says - Go Fish
-Joe draws Kd
-Joe books Ks-Kd
-Joe's hands : 5c 
-Jane's hands : 9d 5h 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s Js-Jc Ks-Kd 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 4s-4h 
+Joe draws Jd
+Joe books Js-Jd
+Joe's hands : As Kh 8s 
+Jane's hands : Jh 10h 5s 9d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
 
 Jane asks - Do you have a 5?
-Joe says - Yes. I have a 5.
-Jane books 5h-5c
-Out of cards! Joe draws 9c
-Joe's hands : 9c 
-Jane's hands : 9d 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s Js-Jc Ks-Kd 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 4s-4h 5h-5c 
+Joe says - Go Fish
+Jane draws 3s
+Joe's hands : As Kh 8s 
+Jane's hands : Jh 10h 5s 9d 3s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
 
-Jane asks - Do you have a 9?
-Joe says - Yes. I have a 9.
+Joe asks - Do you have a A?
+Jane says - Go Fish
+Joe draws Kc
+Joe books Kh-Kc
+Joe's hands : As 8s 
+Jane's hands : Jh 10h 5s 9d 3s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Jane asks - Do you have a 10?
+Joe says - Go Fish
+Jane draws Qh
+Joe's hands : As 8s 
+Jane's hands : Jh 10h 5s 9d 3s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Joe asks - Do you have a A?
+Jane says - Go Fish
+Joe draws 2c
+Joe's hands : As 8s 2c 
+Jane's hands : Jh 10h 5s 9d 3s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Jane asks - Do you have a 10?
+Joe says - Go Fish
+Jane draws Ah
+Joe's hands : As 8s 2c 
+Jane's hands : Jh 10h 5s 9d 3s Qh Ah 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Joe asks - Do you have a A?
+Jane says - Yes. I have a A.
+Joe books As-Ah
+Joe's hands : 8s 2c 
+Jane's hands : Jh 10h 5s 9d 3s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Joe asks - Do you have a 2?
+Jane says - Go Fish
+Joe draws 3d
+Joe's hands : 8s 2c 3d 
+Jane's hands : Jh 10h 5s 9d 3s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 
+
+Jane asks - Do you have a Q?
+Joe says - Go Fish
+Jane draws 9c
 Jane books 9d-9c
+Joe's hands : 8s 2c 3d 
+Jane's hands : Jh 10h 5s 3s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 
+
+Joe asks - Do you have a 8?
+Jane says - Go Fish
+Joe draws 4d
+Joe's hands : 8s 2c 3d 4d 
+Jane's hands : Jh 10h 5s 3s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 
+
+Jane asks - Do you have a 3?
+Joe says - Yes. I have a 3.
+Jane books 3s-3d
+Joe's hands : 8s 2c 4d 
+Jane's hands : Jh 10h 5s Qh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d 
+
+Jane asks - Do you have a Q?
+Joe says - Go Fish
+Jane draws Qc
+Jane books Qh-Qc
+Joe's hands : 8s 2c 4d 
+Jane's hands : Jh 10h 5s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 
+
+Joe asks - Do you have a 8?
+Jane says - Go Fish
+Joe draws 8d
+Joe books 8s-8d
+Joe's hands : 2c 4d 
+Jane's hands : Jh 10h 5s 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 
+
+Jane asks - Do you have a 10?
+Joe says - Go Fish
+Jane draws 5c
+Jane books 5s-5c
+Joe's hands : 2c 4d 
+Jane's hands : Jh 10h 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 
+
+Joe asks - Do you have a 2?
+Jane says - Go Fish
+Joe draws 10c
+Joe's hands : 2c 4d 10c 
+Jane's hands : Jh 10h 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 
+
+Jane asks - Do you have a J?
+Joe says - Go Fish
+Jane draws 2d
+Joe's hands : 2c 4d 10c 
+Jane's hands : Jh 10h 2d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 
+
+Joe asks - Do you have a 4?
+Jane says - Go Fish
+Joe draws Jc
+Joe's hands : 2c 4d 10c Jc 
+Jane's hands : Jh 10h 2d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 
+
+Jane asks - Do you have a 10?
+Joe says - Yes. I have a 10.
+Jane books 10h-10c
+Joe's hands : 2c 4d Jc 
+Jane's hands : Jh 2d 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 10h-10c 
+
+Jane asks - Do you have a 2?
+Joe says - Yes. I have a 2.
+Jane books 2d-2c
+Joe's hands : 4d Jc 
+Jane's hands : Jh 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 10h-10c 2d-2c 
+
+Jane asks - Do you have a J?
+Joe says - Yes. I have a J.
+Jane books Jh-Jc
+Joe's hands : 4d 
+Jane's hands : 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 10h-10c 2d-2c Jh-Jc 
+
+Out of cards! Jane draws 4s
+Jane asks - Do you have a 4?
+Joe says - Yes. I have a 4.
+Jane books 4s-4d
 Joe's hands : 
 Jane's hands : 
-Joe's books : 2s-2d 7s-7h 8d-8h Ah-Ad 3h-3d 7d-7c 5d-5s 6h-6c 2h-2c Qd-Qh Kh-Kc Qs-Qc 8c-8s 10h-10s 3c-3s Js-Jc Ks-Kd 
-Jane's books : 9s-9h 10c-10d Jh-Jd 4c-4d 6s-6d As-Ac 4s-4h 5h-5c 9d-9c 
+Joe's books : 6s-6h 8c-8h 10d-10s Kd-Ks Ac-Ad 2s-2h Js-Jd Kh-Kc As-Ah 8s-8d 
+Jane's books : 9h-9s 7h-7d 5d-5h 3c-3h Qs-Qd 6d-6c 4c-4h 7s-7c 9d-9c 3s-3d Qh-Qc 5s-5c 10h-10c 2d-2c Jh-Jc 4s-4d 
 
 The game is over. Who won?
 ******************************
-Joe has 17 books.
-Jane has 9 books.
+Joe has 10 books.
+Jane has 16 books.
 
-Joe wins!
+Jane wins!

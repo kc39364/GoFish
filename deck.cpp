@@ -17,14 +17,14 @@ Deck::Deck()
     {
         for(int rank = 0; rank < 13; rank++)
         {
-            Card c(rank+1, (Card::Suit)suit);
-            myCards[myIndex] = c;
+            Card c(rank+1, (Card::Suit)suit); // (Card::Suit) converts casts int as a Suit
+            myCards[myIndex] = c; // add card to deck
 
             myIndex++;
         }
     }
 
-    myIndex = 0;
+    myIndex = 0; // reset to "top" of deck
 }
 
 /* FUNCTION - void shuffle
@@ -69,7 +69,7 @@ Card Deck::dealCard()
 {
     if(size() > 0)
         return myCards[myIndex++];
-    else
+    else // Deck has no more cards. Return useless card
     {
         Card c;
         return c;

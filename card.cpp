@@ -102,6 +102,7 @@ string Card::rankString(int r) const
     if(r == 13)
         return "K";
     
+    // return the rank as a string
     ostringstream ss;
     ss << r;
     return ss.str();

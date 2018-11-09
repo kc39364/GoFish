@@ -110,7 +110,7 @@ bool Player::cardInHand(Card c) const
     vector <Card>::const_iterator iter;
     for(iter = myHand.begin(); iter != myHand.end(); iter++)
     {
-        if(*iter == c)
+        if(*iter == c) // checks if card is the same
             return true;
     }
 
@@ -132,11 +132,11 @@ Card Player::removeCardFromHand(Card c)
     vector <Card>::iterator iter;
     for(iter = myHand.begin(); iter != myHand.end(); iter++)
     {
-        if(*iter == c)
+        if(*iter == c) // checks if card is the same
         {
             removedCard = *iter;
             myHand.erase(iter); // deletes card from hand
-            iter--;
+            iter--; // reset index to before the removed card
         }
     }
 
